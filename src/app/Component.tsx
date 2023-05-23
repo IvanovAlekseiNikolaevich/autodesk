@@ -64,7 +64,7 @@ export default function Component() {
                         <Typography variant="h5" align="center" color="text.secondary" paragraph>
                             Add your image to input field
                         </Typography>
-                            <Input type="file" color='primary' margin='dense' ></Input>
+                        <Input type="file" color='primary' margin='none' sx={{display: "flex", flexDirection: "column", alignItems: "center"}}></Input>
                     </Container>
                 </Box>
             </main>
